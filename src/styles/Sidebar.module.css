@@ -1,0 +1,50 @@
+.sidebar {
+  width: 296px;
+  padding: 24px;
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 0 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.menu {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.nav__link {
+  color: var(--dark-sea);
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.link {
+  color: var(--dark-sea);
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.link:hover {
+  color: var(--white);
+}
+
+.link.active {
+  color: var(--violet);
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,78 @@
+ .footer {
+     min-height: 150px;
+     background-color: #233040;
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     padding: 50px 0;
+ }
+
+ .contacts {
+
+ }
+
+ .contacts__title,
+ .social__title  {
+    font-family:  Roboto, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px;
+    line-height: 22px;
+    letter-spacing: .5px;
+    font-weight: 600;
+ }
+
+ .contacts__address {
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #b2b2b2;
+ }
+
+ .contacts__email {
+    display: block;
+    color: #b2b2b2;
+    margin-bottom: 5px;
+    line-height: 30px;
+    text-transform: capitalize;
+    letter-spacing: .59px;
+ }
+
+ .contacts__phone {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .59px;
+    color: #b2b2b2;
+    margin-bottom: 30px;
+ }
+
+ .contacts__social {
+     display: flex;
+     gap: 20px;
+ }
+
+ .contacts__list {}
+
+ .footer__links {}
+
+ .footer__nav {
+     display: flex;
+     justify-content: space-between;
+     gap: 100px;
+ }
+
+ .footer__social {}
+
+
+ .social__list {}
+
+ .social__link {
+    color: #b2b2b2;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: .5px;
+ }
